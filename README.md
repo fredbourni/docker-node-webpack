@@ -25,7 +25,7 @@ docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/node-webpack \
   webpack --mode production --target node --output-library main --output-library-target umd
 ```
 
-### deloying
+### deploying
 
 ```
 docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/node-webpack \
