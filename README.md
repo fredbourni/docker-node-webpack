@@ -15,20 +15,20 @@ Docker image based on Debian Strech for testing, building and deploying Node v8 
 ### developing
 
 ```
-docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/docker-node-webpack nodemon index.js
+docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/node-webpack nodemon index.js
 ```
 
 ### bundling
 
 ```
-docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/docker-node-webpack \
+docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/node-webpack \
   webpack --mode production --target node --output-library main --output-library-target umd
 ```
 
 ### deloying
 
 ```
-docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/docker-node-webpack \
+docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/node-webpack \
   aws s3 --profile profilename cp dist/main.zip  s3://bucketname/main.zip && \
   aws lambda update-function-code --profile profilename --function-name fname \
   --s3-bucket bucketname --s3-key main.zip
