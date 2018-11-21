@@ -30,5 +30,6 @@ docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/docker-node-webpack \
 ```
 docker run --rm -v $PWD:/app -w /app -u $UID fredbourni/docker-node-webpack \
   aws s3 --profile profilename cp dist/main.zip  s3://bucketname/main.zip && \
-  aws lambda update-function-code --profile profilename --function-name fname --s3-bucket bucketname --s3-key main.zip
+  aws lambda update-function-code --profile profilename --function-name fname \
+  --s3-bucket bucketname --s3-key main.zip
 ```
