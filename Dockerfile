@@ -1,6 +1,6 @@
 FROM debian:9
 
-RUN apt update && apt install -y curl gnupg2 build-essential libssl-dev python3-pip && \
+RUN apt update && apt install -y curl gnupg2 python3-pip && \
     curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
     apt install -y nodejs && \
     npm install -g webpack webpack-cli nodemon && \

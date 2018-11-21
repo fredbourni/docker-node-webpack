@@ -4,8 +4,6 @@ Docker image based on Debian Strech for testing, building and deploying Node v8 
 ## packaged with:
 
 - awscli
-- build-essential
-- libssl-dev
 - nodejs 8
 - nodemon
 - webpack-cli
