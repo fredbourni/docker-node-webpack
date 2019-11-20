@@ -1,8 +1,8 @@
-FROM debian:9
+FROM debian:10
 
 RUN apt update && apt install -y gnupg2 curl python3-pip zip && \
     pip3 install awscli && \
-    curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
+    curl -sL https://deb.nodesource.com/setup_10.x | bash - && \
     apt install -y nodejs && \
     npm install -g webpack webpack-cli nodemon && \
     apt remove -y gnupg2 && \
