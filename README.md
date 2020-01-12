@@ -8,8 +8,9 @@ apps on AWS lambda using webpack
 - nodejs
   - Version 8 (fredbourni/node-webpack:8)
   - Version 10 (fredbourni/node-webpack:10)
-  - Version 12 (fredbourni/node-webpack:12)
+  - Version 12 (fredbourni/node-webpack:12, fredbourni/node-webpack:12-webp)
 - nodemon
+- webp (fredbourni/node-webpack:12-webp only)
 - webpack-cli
 
 ## examples:
