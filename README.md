@@ -9,8 +9,10 @@ apps on AWS lambda using webpack and also deploy static websites on firebase hos
 - nodejs
   - Version 8 (fredbourni/node-webpack:8)
   - Version 10 (fredbourni/node-webpack:10)
-  - Version 12 (fredbourni/node-webpack:12)
+  - Version 12 (fredbourni/node-webpack:12, fredbourni/node-webpack:12-webp)
+  - Version 14 (fredbourni/node-webpack:14, fredbourni/node-webpack:14-webp)
 - nodemon
+- webp (*-webp tags only)
 - webpack-cli
 
 ## examples:
