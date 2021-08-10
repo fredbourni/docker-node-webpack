@@ -1,8 +1,8 @@
 FROM debian:10
 
-RUN apt update && apt install -y gnupg2 curl python3-pip zip && \
+RUN apt update && apt install -y gnupg2 curl python3-pip zip webp && \
     pip3 install awscli && \
-    curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
+    curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
     apt install -y nodejs && \
     npm install -g webpack webpack-cli nodemon firebase-tools && \
     apt remove -y gnupg2 && \
