@@ -1,5 +1,5 @@
 # docker-node-webpack
-Docker image based on Debian for testing, bundling and deploying NodeJS 8, 10 and 12
+Docker image based on Debian for testing, bundling and deploying NodeJS 8, 10, 12 and 14
 apps on AWS lambda using webpack and also deploy static websites on firebase hosting
 
 ## packaged with:
