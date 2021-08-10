@@ -1,5 +1,5 @@
 # docker-node-webpack
-Docker image based on Debian for testing, bundling and deploying NodeJS 8, 10, 12 and 14
+Docker image based on Debian for testing, bundling and deploying NodeJS 8, 10, 12, 14 and 16
 apps on AWS lambda using webpack and also deploy static websites on firebase hosting
 
 ## packaged with:
@@ -11,6 +11,7 @@ apps on AWS lambda using webpack and also deploy static websites on firebase hos
   - Version 10 (fredbourni/node-webpack:10)
   - Version 12 (fredbourni/node-webpack:12, fredbourni/node-webpack:12-webp)
   - Version 14 (fredbourni/node-webpack:14, fredbourni/node-webpack:14-webp)
+  - Version 16 (fredbourni/node-webpack:16, fredbourni/node-webpack:16-webp)
 - nodemon
 - webp (*-webp tags only)
 - webpack-cli
