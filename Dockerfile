@@ -1,6 +1,6 @@
 FROM debian:10
 
-RUN apt update && apt install -y gnupg2 curl python3-pip zip webp && \
+RUN apt update && apt install -y gnupg2 curl python3-pip zip && \
     pip3 install awscli && \
     curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt install -y nodejs && \
